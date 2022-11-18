@@ -28,7 +28,7 @@ class StorageAccessibilityService : AccessibilityService() {
 
             val checkedNode = currentNode.getChild(0).getChild(0).getChild(0).getChild(6).getChild(1)
             if (checkedNode.className == "android.widget.Button" && checkedNode.text.toString() == "SAVE") {
-                checkedNode.performAction(AccessibilityNodeInfo.ACTION_CLICK);
+                checkedNode.performAction(AccessibilityNodeInfo.ACTION_CLICK)
             }
 
 //            saveButton.performAction(AccessibilityNodeInfo.ACTION_CLICK);
