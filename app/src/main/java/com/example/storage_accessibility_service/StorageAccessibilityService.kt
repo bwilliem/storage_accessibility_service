@@ -32,7 +32,7 @@ class StorageAccessibilityService : AccessibilityService() {
             }
 
 //            saveButton.performAction(AccessibilityNodeInfo.ACTION_CLICK);
-            dfs(currentNode, "")
+//            dfs(currentNode, "")
 //            Log.d("BeatriceLog", "currentNode: $currentNode")
         }
     }
